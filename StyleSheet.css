@@ -1,0 +1,29 @@
+body{
+    background-color: #a4a3a3;
+    font-family: sans-serif;
+}
+
+.c-item {
+    height: 480px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.overview {
+    height: 75px;
+}
+
+.btn1{
+    background-color: #8e8d85;
+    color: black;
+}
+
+.card{
+    background-color: #8e8d85;
+    color: white;
+}
+

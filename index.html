@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="StyleSheet.css">
+    <title>Home Page</title>
+</head>
+
+<body>
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-dark navbar-expand-sm bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="Photos/Logo.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                Engineer
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" href="index.html">Home page</a>
+                    <a class="nav-link" href="About Me.html">About Me</a>
+                    <a class="nav-link" href="My Skils.html">My Skills</a>
+                    <a class="nav-link" href="My Projects.html">My Projects</a>
+                    <a class="nav-link" href="Contect Me.html">Contect Me</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item c-item active">
+                <img src="Photos/Computer.jpg" class="d-block w-100 c-img" alt="Computer">
+                <div class="carousel-caption top-0 mt-5">
+                    <p class="display-1 fw-bolder text-capitalize">Web Testing</p>
+                    <p class="fs-3 mt-5">Test your Website</p>
+                </div>
+            </div>
+            <div class="carousel-item c-item">
+                <img src="Photos/Mobile.jpg" class="d-block w-100 c-img" alt="Mobile">
+                <div class="carousel-caption top-0 mt-5">
+                    <p class="display-1 fw-bolder text-capitalize">Mobile Testing</p>
+                    <p class="fs-3 mt-5">Test your mobile App</p>
+                </div>
+            </div>
+            <div class="carousel-item c-item">
+                <img src="Photos/cloud.jpg" class="d-block w-100 c-img" alt="cloud">
+                <div class="carousel-caption top-0 mt-5">
+                    <p class="display-1 fw-bolder text-capitalize">API Testing</p>
+                    <p class="fs-3 mt-5">Test your API conections</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Overview -->
+    <section class="overview bg-dark text-light">
+        <div class="container d-flex h-100 align-items-center">
+            <div class="row w-100 text-center fs-4">
+                <div class="col-xl">
+                    <i class="bi bi-bag-check me-2"></i>
+                    Professional
+                </div>
+                <div class="col-xl">
+                    <i class="bi bi-calendar-check me-2"></i>
+                    Punctuality
+                </div>
+                <div class="col-xl">
+                    <i class="bi bi-clipboard2-check me-2"></i>
+                    Reliable
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <div class="container">
+        <div class="row align-items-center">
+            <h3 class="mt-4 text-center">About Me</h3>
+            <p class="text-center fs-5 col-12">
+                Hi My name is Yitzi and I am a junior QA Engineer I took a High level course of maniul QA and Automation
+                testing
+                with all of the latest tools when I take on my self somthing i dont live it intel its done in the best
+                way
+                I'm
+                sure that if you will contact me you wont be disappointed
+                <a href="About Me.html" class="text-dark">See more about me</a>
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-center mb-4">
+                <a href="Contect Me.html" class="btn align-items-center fs-3 col-3 btn-outline-dark" type="button" tabindex="1"
+                    role="button" aria-disabled="true">Contect
+                    me
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cards -->
+    <section class="mt-5">
+        <div class="container-fluid">
+        <h3 class="mt-4 text-center mb-4 ">My Skills</h3>
+        <div class="col-sm">
+            <div class="text-center">
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div class="card bg-dark">
+                            <img src="Photos/Selenium.png" class="card-img-top" alt="Selenium">
+                            <div class="card-body h-30">
+                                <h4 class="card-title">Selenium WebDriver</h4>
+                                <p class="card-text text-secondary">
+                                    Selenium WebDriver is a web framework that permits you to execute cross-browser
+                                    tests.
+                                    This tool is used for automating web-based application testing to verify that it
+                                    performs expectedly.
+                                </p>
+                                <a href="https://en.wikipedia.org/wiki/Selenium_(software)"
+                                    class="btn btn-secondary mt-3">More
+                                    info
+                                    in Wikipedia</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-dark">
+                            <img src="Photos/Maven.png" class="card-img-top" alt="Maven">
+                            <div class="card-body h-30">
+                                <h4 class="card-title">Maven</h4>
+                                <p class="card-text text-secondary">
+                                    Maven is a popular open-source to build,
+                                    publish, and deploy several projects at once for better project management. The tool
+                                    provides allows developers to build and document the lifecycle framework.
+                                </p>
+                                <a href="https://en.wikipedia.org/wiki/Apache_Maven"
+                                    class="btn btn-secondary mt-3">More info
+                                    in
+                                    Wikipedia</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-dark">
+                            <img src="Photos/Java.png" class="card-img-top" alt="Java">
+                            <div class="card-body h-30">
+                                <h4 class="card-title">Java</h4>
+                                <p class="card-text text-secondary">
+                                    Java is a widely-used programming language for coding web applications. It has been
+                                    a popular choice among developers for over two decades, with millions of Java
+                                    applications in use today.
+                                </p>
+                                <a href="https://en.wikipedia.org/wiki/Java_(programming_language)"
+                                    class="btn btn-secondary mt-3">More info in Wikipedia</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-dark">
+                            <img src="Photos/Docker.png" class="card-img-top" alt="Docker">
+                            <div class="card-body h-30">
+                                <h4 class="card-title">Docker</h4>
+                                <p class="card-text text-secondary">
+                                    Docker is a Service that provides OS-level virtualization. It makes it
+                                    easy to run applications using containers. Containers act as a
+                                    freshly installed OS, each with its own libraries and configurations.
+                                </p>
+                                <a href="https://en.wikipedia.org/wiki/Docker_(software)"
+                                    class="btn btn-secondary mt-3">More
+                                    info in Wikipedia</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="My Skils.html" class="btn p-3 m-4 btn-outline-dark">all of my Skills</a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-dark">
+        <div class="container d-flex justify-content-center py-5">
+          <a href="tel:+972-58-426-4551" class="btn btn-secondary btn-lg btn-floating mx-2" rel="noopener" target="_blank">
+            <i class="bi bi-telephone-fill"></i>
+          </a>
+          <a href="mailto:yitziw123@gmail.com" class="btn btn-secondary btn-lg btn-floating mx-2" rel="noopener" target="_blank">
+            <i class="bi bi-envelope-at-fill"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/yitzi-weiner-3829a0234/" class="btn btn-secondary btn-lg btn-floating mx-2" rel="noopener" target="_blank">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="https://github.com/yw4551/AutomationProject.git" class="btn btn-secondary btn-lg btn-floating mx-2" rel="noopener" target="_blank">
+            <i class="bi bi-github"></i>
+          </a>
+        </div>
+      </footer>
+</body>
+
+</html>

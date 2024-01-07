@@ -5,6 +5,7 @@ body{
 
 .c-item {
     height: 350px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .c-img {
@@ -76,4 +77,23 @@ body{
 .text {
     color: darkslategrey;
 
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslategrey;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslategrey;
+}
+
+h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslategrey;
+}
+
+.progress-bar {
+    background-color: darkslategrey;
 }

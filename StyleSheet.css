@@ -4,7 +4,7 @@ body{
 }
 
 .c-item {
-    height: 480px;
+    height: 350px;
 }
 
 .c-img {
@@ -14,17 +14,7 @@ body{
 }
 
 .overview {
-    height: 75px;
-}
-
-.btn1{
-    background-color: #8e8d85;
-    color: black;
-}
-
-.card{
-    background-color: #8e8d85;
-    color: white;
+    height: 100px;
 }
 
 .card-sl {
@@ -81,5 +71,9 @@ body{
 .card-button:hover {
     text-decoration: none;
     color: #fff;
+}
+
+.text {
+    color: darkslategrey;
 
 }

@@ -97,3 +97,12 @@ h5 {
 .progress-bar {
     background-color: darkslategrey;
 }
+
+.subtitle {
+    text-align: left;
+    margin: 40px;
+}
+
+.cards {
+    align-items: center;
+}

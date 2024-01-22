@@ -1,6 +1,7 @@
 body{
     background-color: #a4a3a3;
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslategrey;
 }
 
 .c-item {
